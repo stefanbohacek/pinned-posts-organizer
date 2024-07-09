@@ -8,9 +8,9 @@ eleventyNavigation:
 
 # {{ title }}
 
-Hi there, thank you for trying out my Pinned Post Organizer tool! Just one of my many [personal side projects](https://stefanbohacek.com/projects/).
+Hi there, thank you for trying out my Pinned Post Organizer tool, just one of my many [personal side projects](https://stefanbohacek.com/projects/).
 
-Just like with all of my work, which I create and share for free, I highly value your time and trust. When you log in with your account, here's what happens next:
+Just like with all of my work, which I create and share for free, I highly value your time and your trust. When you log in with your account, here's what happens next:
 
 You will be asked to allow the following permissions:
 
@@ -26,5 +26,7 @@ Don't worry though, the worst thing that can happen is that the process breaks h
 None of your data is stored outside of your own browser, which will remember your fediverse domain, your user token, which is used to load and save your pinned posts, and can be cleared from your browser using the "Log out" link/button in the navigation menu. Your fediverse domain will continue to be saved for convenience, so that if you log out and want to use this tool again later, it will remember for some time.
 
 If you'd like to completely remove all saved data, [here's how you can do that](https://averoinc.zendesk.com/hc/en-us/articles/360036946574-How-do-I-clear-local-Storage).
+
+You can download the source code of this app [from GitHub](https://github.com/stefanbohacek/pinned-posts-organizer).
 
 If you have any questions, please [do not hesitate to reach out](https://stefanbohacek.com/contact/)!

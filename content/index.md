@@ -13,7 +13,7 @@ eleventyNavigation:
       Easily organize your pinned Mastodon posts
     </p>
     <p>
-      This tool is free to use, is open-source, and doesn't save or share your data. Read more about the project and view the full privacy policy on the <a href="/about/"><em>About</em> page</a>, and then go ahead and start by putting in your Mastodon's domain below.
+      This tool is free to use, <a href="https://github.com/stefanbohacek/pinned-posts-organizer">open-source</a>, and doesn't save or share your data. Read more about the project and view the full privacy policy on the <a href="/about/"><em>About</em> page</a>, and then go ahead and start by putting in your Mastodon's domain below.
     </p>
     <form id="sign-in-form" class="mb-5 mt-5">
       <label for="fediverse-server" class="d-block form-label text-start fw-bold">Your instance or server</label>
