@@ -27,7 +27,7 @@ eleventyNavigation:
   Now you can drag your pinned posts around and order them as you wish. Once you're happy with the result, go ahead and press the "Save pinned posts" button.
 </p>
 
-<div class="row my-5 px-2">
+<div class="row my-5 px-5 px-md-0">
   <div class="col-12 col-md-6">
     <div id="pinned-posts">
     <ul class="list-group">
