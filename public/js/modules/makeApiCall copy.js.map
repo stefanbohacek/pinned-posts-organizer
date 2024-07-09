@@ -1,1 +1,0 @@
-{"version":3,"file":"modules/makeApiCall copy.js","names":["async","endpoint","instance","localStorage","getItem","headers","Authorization","resp","fetch","json"],"sources":["modules/makeApiCall copy.js"],"mappings":"eAAeA,MAAOC,IACpB,MAAMC,EAAWC,aAAaC,QAAQ,YAEhCC,EAAU,CAAEC,cAAe,UADnBH,aAAaC,QAAQ,YAE7BG,QAAaC,MACjB,WAAWN,KAAYD,IACvB,CAAEI,YAGJ,aADuBE,EAAKE,MACb","ignoreList":[]}

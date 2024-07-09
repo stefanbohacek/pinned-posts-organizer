@@ -3,7 +3,7 @@ import sleep from "./modules/sleep.js";
 import backToTop from "./modules/backToTop.js";
 import checkLogin from "./modules/checkLogin.js";
 import handleLogout from "./modules/handleLogout.js";
-import makeApiCall from "./modules/makeAPICall.js";
+import makeApiCall from "./modules/makeApiCall.js";
 import renderPinnedPosts from "./modules/renderPinnedPosts.js";
 
 onReady(async () => {
