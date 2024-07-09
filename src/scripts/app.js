@@ -22,8 +22,6 @@ onReady(async () => {
   }
 
   if (userId) {
-    console.log("userId", userId);
-
     const statuses = await makeApiCall(
       `/api/v1/accounts/${userId}/statuses?limit=80&pinned=true`
     );
@@ -38,7 +36,6 @@ onReady(async () => {
       </p>
       `;
     } else {
-      console.log(statuses);
       renderPinnedPosts(statuses);
 
       const containerSelector = ".list-group";
@@ -59,7 +56,6 @@ onReady(async () => {
         let postIds = [...document.querySelectorAll("#pinned-posts li")].map(
           (li) => li.dataset.id
         );
-        console.log(postIds);
 
         savePinnedPostsBtn.disabled = true;
         savePinnedPostsBtn.innerHTML = "Unpinning posts...";
