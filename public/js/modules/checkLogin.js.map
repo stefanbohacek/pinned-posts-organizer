@@ -1,0 +1,1 @@
+{"version":3,"file":"modules/checkLogin.js","names":["instance","localStorage","getItem","token","window","location","href"],"sources":["modules/checkLogin.js"],"mappings":"cAAe,KACb,MAAMA,EAAWC,aAAaC,QAAQ,YAChCC,EAAQF,aAAaC,QAAQ,SAE9BF,GAAaG,IAChBC,OAAOC,SAASC,KAAO,IACzB","ignoreList":[]}

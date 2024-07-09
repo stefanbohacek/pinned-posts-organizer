@@ -1,0 +1,1 @@
+{"version":3,"file":"modules/getUrlParams.js","names":["args","paramsResult","params","URLSearchParams","document","location","search","forEach","param","get"],"sources":["modules/getUrlParams.js"],"mappings":"cAAe,IAAIA,KACjB,IAAIC,EAAe,CAAC,EAChBC,EAAS,IAAIC,gBAAgBC,SAASC,SAASC,QAMnD,OAJAN,EAAKO,SAASC,IACZP,EAAaO,GAASN,EAAOO,IAAID,EAAM,IAGlCP,CAAY","ignoreList":[]}

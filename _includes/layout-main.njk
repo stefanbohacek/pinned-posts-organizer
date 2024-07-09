@@ -1,0 +1,23 @@
+---
+title: Home
+---
+
+<!DOCTYPE html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    {% include "partial-meta.njk" %}
+    <link rel="stylesheet" href="/bootstrap/bootstrap.css"/>
+    <link rel="stylesheet" href="/css/styles.css"/>
+    <script type="module" src="/js/main.js" defer></script>
+  </head>
+  <body class="d-flex flex-column h-100">{% include "partial-dark-mode.njk" %}
+    {% include "partial-navigation.njk" %}
+    <main class="flex-shrink-0 mt-5">
+      <div class="container">
+        {{ content | safe }}
+      </div>
+    </main>
+    {% include "partial-footer.njk" %}
+    {% include "partial-matomo.njk" %}
+  </body>
+</html>

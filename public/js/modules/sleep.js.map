@@ -1,0 +1,1 @@
+{"version":3,"file":"modules/sleep.js","names":["delay","Promise","resolve","setTimeout"],"sources":["modules/sleep.js"],"mappings":"eAAgBA,GAAU,IAAIC,SAASC,GAAYC,WAAWD,EAASF","ignoreList":[]}

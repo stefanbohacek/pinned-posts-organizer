@@ -1,0 +1,1 @@
+export default async t=>{const e=localStorage.getItem("instance"),a={Authorization:`Bearer ${localStorage.getItem("token")}`},o=await fetch(`https://${e}/${t}`,{headers:a});return await o.json()};//# sourceMappingURL=makeApiCall copy.js.map

@@ -1,0 +1,17 @@
+<header class="d-flex flex-wrap align-items-center">
+  <nav class="nav mt-5 mx-auto w-100">
+    <div class="container p-2 bg-body-tertiary rounded">
+      {% set navPages = collections.all | eleventyNavigation %}
+      <ul class="nav ">
+        {% for item in navPages %}
+          <li class="nav-item">
+            <a href="{{ item.url }}" {{ helpers.getLinkActiveState(item.url, page.url) | safe }}>{{ item.key }}</a>
+          </li>
+        {% endfor %}
+        <li class="nav-item d-none">
+          <a href="#" id="log-out" class="nav-link link-secondary">Log out</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+</header>
