@@ -23,6 +23,9 @@ eleventyNavigation:
         <button class="btn btn-outline-secondary" type="submit" id="sign-in">Manage pinned posts</button>
       </div>
     </form>
+    <p>
+      <a href="https://stefanbohacek.com/project/pinned-posts-organizer/">Learn more on my blog.</a>
+    </p>
   </div>
   <div class="col-12 col-md-6">
     <figure class="px-5 mt-2">
