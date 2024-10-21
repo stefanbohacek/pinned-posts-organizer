@@ -1,1 +1,1 @@
-export default async(t,e)=>{const a=localStorage.getItem("instance"),o={Authorization:`Bearer ${localStorage.getItem("token")}`},r=await fetch(`https://${a}/${t}`,{headers:o,method:e||"GET"});return await r.json()};//# sourceMappingURL=makeAPICall.js.map
+export default async(t,e)=>{const a=localStorage.getItem("instance").replace(/\/$/,""),o={Authorization:`Bearer ${localStorage.getItem("token")}`},r=await fetch(`https://${a}/${t}`,{headers:o,method:e||"GET"});return await r.json()};//# sourceMappingURL=makeAPICall.js.map
