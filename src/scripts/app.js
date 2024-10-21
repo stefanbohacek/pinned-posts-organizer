@@ -63,7 +63,7 @@ onReady(async () => {
         for (const postId of postIds) {
           console.log("unpinning...", postId);
           const resp = await makeApiCall(
-            `api/v1/statuses/${postId}/unpin`,
+            `/api/v1/statuses/${postId}/unpin`,
             "POST"
           );
           await sleep(500);
@@ -75,7 +75,7 @@ onReady(async () => {
         for (const postId of postIds) {
           console.log("pinning...", postId);
           const resp = await makeApiCall(
-            `api/v1/statuses/${postId}/pin`,
+            `/api/v1/statuses/${postId}/pin`,
             "POST"
           );
           await sleep(500);
