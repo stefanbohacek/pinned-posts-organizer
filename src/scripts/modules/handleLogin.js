@@ -5,7 +5,7 @@ export default () => {
     window.location.hostname === "localhost" ? "development" : "production";
 
   // const authServerURL = "http://localhost:3000/"
-  const authServerURL = "https://auth.stefanbohacek.dev/";
+  const authServerURL = "https://auth.stefanbohacek.com/";
   const loginForm = document.getElementById("sign-in-form");
   const instanceInputField = document.getElementById("fediverse-server");
   const instance = localStorage.getItem("instance");
