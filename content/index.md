@@ -8,7 +8,7 @@ eleventyNavigation:
 
 <div class="row">
   <div class="col-12 col-md-6">
-    <h1>Pinned posts organizer</h1>
+    <h1 class="text-secondary">Pinned posts organizer</h1>
     <p class="lead">
       Easily organize your pinned Mastodon posts
     </p>
