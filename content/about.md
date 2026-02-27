@@ -8,7 +8,9 @@ eleventyNavigation:
 
 # {{ title }}
 
-Hi there, thank you for trying out my Pinned Post Organizer tool, just one of my many [personal side projects](https://stefanbohacek.com/projects/).
+Hi there! 
+
+Thank you for trying out my Pinned Post Organizer tool, just one of my many [personal side projects](https://stefanbohacek.com/projects/).
 
 Just like with all of my work, which I create and share for free, I highly value your time and your trust. When you log in with your account, here's what happens next:
 
